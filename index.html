@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Guess calculator</title>
+</head>
+<body>
+
+  <article class="header-config">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+    <div class="config">
+      
+    </div>
+  </article>
+
+  <form>
+
+    <input type="radio" id="operation-radio"><label for="operation-radio">Want only one operation? which?</label>
+
+    <select id="preferential-operation">
+      <option value="" selected>none</option>
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select><br/>
+
+    <button id="generate-operation">Generate operation</button><br/>
+    <label id="operation">n x n = ?</label> <br/>
+    <input type="number" id="guess-number"><br/>
+    <button id="guess">Guess</button><br/>
+
+    <button type="reset" id="reset">Reset form</button>
+  </form>
+
+  <script src="./js/index.js" defer></script>
+</body>
+</html>

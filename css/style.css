@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header-config { 
+	width: 100vw;
+	height: 40px;
+	background-color: #353333;
+	color: #ffffff;
+	border-radius: 0 0 0 25px;
+}
+
+#preferential-operation {
+	display: none;
+}
